@@ -1,0 +1,1 @@
+ curl -v -X POST "http://localhost:8282/ConfigServer/monitor"Content-Type: application/json" -H "X-Event-Key: repo:push" -H "X-Hook-UUID: webhook-uuid" -d '{"push": {"changes": []} }'
